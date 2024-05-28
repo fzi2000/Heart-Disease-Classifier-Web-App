@@ -5,7 +5,7 @@ import pickle
 from flask import Flask, request, render_template
 
 # Load ML model
-model = pickle.load(open('model.pkl', 'rb')) 
+model = pickle.load(open('new_model.pkl', 'rb')) 
 
 # Create application
 app = Flask(__name__)
